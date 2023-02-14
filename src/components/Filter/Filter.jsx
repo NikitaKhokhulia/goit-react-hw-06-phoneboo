@@ -5,7 +5,6 @@ const Filter = () => {
   const dispatch = useDispatch();
   const onChangeFilter = e => {
     dispatch(onFilter(e.target.value));
-    console.log(e.target.value);
   };
   return (
     <>

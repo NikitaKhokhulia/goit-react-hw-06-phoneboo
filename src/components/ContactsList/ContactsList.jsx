@@ -39,24 +39,3 @@ const ContactList = () => {
 };
 
 export default ContactList;
-
-// const ContactList = () => {
-//   return (
-//     <Container>
-//       <List>
-//         {contacts.map(({ name, number, id }) => {
-//           return (
-//             <li key={shortid()}>
-//               {name} {number}
-//               <WrapperButtonDelete>
-//                 <Button onClick={() => onDeleteContacts(id)}>Delete</Button>
-//               </WrapperButtonDelete>
-//             </li>
-//           );
-//         })}
-//       </List>
-//     </Container>
-//   );
-// };
-
-// export default ContactList;
